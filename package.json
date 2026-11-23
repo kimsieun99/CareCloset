@@ -1,0 +1,13 @@
+{
+  "name": "carecloset",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CareCloset - 개인 의류 세탁 정보 관리 웹서비스 (캡스톤 프로젝트)",
+  "scripts": {
+    "test": "node --test --test-reporter=spec",
+    "test:log": "node --test --test-reporter=spec > test-results/latest.txt 2>&1",
+    "test:before": "node --test --test-reporter=spec tests/filter.test.js",
+    "sample": "python tools/generate_sample_data.py"
+  },
+  "engines": { "node": ">=18" }
+}

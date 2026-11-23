@@ -1,0 +1,512 @@
+{
+  "app": "CareCloset",
+  "version": 1,
+  "exportedAt": "2026-01-01T00:00:00Z",
+  "items": [
+    {
+      "id": "sample-001",
+      "name": "카키 면 셔츠",
+      "material": "면 100%",
+      "seasons": [
+        "봄",
+        "여름",
+        "가을"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "40℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "표백제 사용 금지. 다림질은 중온.",
+      "createdAt": "2026-01-01T09:00:00Z",
+      "updatedAt": "2026-01-01T09:00:00Z"
+    },
+    {
+      "id": "sample-002",
+      "name": "연분홍 원피스",
+      "material": "레이온",
+      "seasons": [
+        "봄",
+        "여름"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "손세탁",
+      "waterTemperature": "찬물",
+      "dryingMethod": "눕혀서 건조",
+      "notes": "열에 약하므로 건조기 사용 금지.",
+      "createdAt": "2026-01-01T10:00:00Z",
+      "updatedAt": "2026-01-01T10:00:00Z"
+    },
+    {
+      "id": "sample-003",
+      "name": "흰색 기능성 레깅스",
+      "material": "폴리에스터/스판",
+      "seasons": [
+        "봄",
+        "여름",
+        "가을"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "30℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "섬유유연제 사용 금지(기능 저하).",
+      "createdAt": "2026-01-01T11:00:00Z",
+      "updatedAt": "2026-01-01T11:00:00Z"
+    },
+    {
+      "id": "sample-004",
+      "name": "연분홍 맨투맨",
+      "material": "면 혼방",
+      "seasons": [
+        "봄",
+        "가을"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "40℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "뒤집어서 세탁하면 보풀이 줄어든다.",
+      "createdAt": "2026-01-01T12:00:00Z",
+      "updatedAt": "2026-01-01T12:00:00Z"
+    },
+    {
+      "id": "sample-005",
+      "name": "연분홍 반팔 티셔츠",
+      "material": "면 100%",
+      "seasons": [
+        "여름"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "40℃ 이하",
+      "dryingMethod": "건조기 사용 가능",
+      "notes": "프린트 부분은 뒤집어서 세탁.",
+      "createdAt": "2026-01-01T13:00:00Z",
+      "updatedAt": "2026-01-01T13:00:00Z"
+    },
+    {
+      "id": "sample-006",
+      "name": "회색 패딩",
+      "material": "나일론/오리털",
+      "seasons": [
+        "겨울"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "드라이클리닝",
+      "waterTemperature": "",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "집에서 세탁 시 전용 세제 사용 후 공 넣고 건조.",
+      "createdAt": "2026-01-01T14:00:00Z",
+      "updatedAt": "2026-01-01T14:00:00Z"
+    },
+    {
+      "id": "sample-007",
+      "name": "검은색 맨투맨",
+      "material": "면 혼방",
+      "seasons": [
+        "봄",
+        "가을"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "40℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "뒤집어서 세탁하면 보풀이 줄어든다.",
+      "createdAt": "2026-01-01T15:00:00Z",
+      "updatedAt": "2026-01-01T15:00:00Z"
+    },
+    {
+      "id": "sample-008",
+      "name": "흰색 코트",
+      "material": "울 캐시미어",
+      "seasons": [
+        "가을",
+        "겨울"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "드라이클리닝",
+      "waterTemperature": "",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "보관 시 통기성 있는 커버 사용.",
+      "createdAt": "2026-01-01T16:00:00Z",
+      "updatedAt": "2026-01-01T16:00:00Z"
+    },
+    {
+      "id": "sample-009",
+      "name": "베이지 면 셔츠",
+      "material": "면 100%",
+      "seasons": [
+        "봄",
+        "여름",
+        "가을"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "40℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "표백제 사용 금지. 다림질은 중온.",
+      "createdAt": "2026-01-01T17:00:00Z",
+      "updatedAt": "2026-01-01T17:00:00Z"
+    },
+    {
+      "id": "sample-010",
+      "name": "회색 면 셔츠",
+      "material": "면 100%",
+      "seasons": [
+        "봄",
+        "여름",
+        "가을"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "40℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "표백제 사용 금지. 다림질은 중온.",
+      "createdAt": "2026-01-01T18:00:00Z",
+      "updatedAt": "2026-01-01T18:00:00Z"
+    },
+    {
+      "id": "sample-011",
+      "name": "회색 니트",
+      "material": "울 혼방",
+      "seasons": [
+        "가을",
+        "겨울"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "손세탁",
+      "waterTemperature": "30℃ 이하",
+      "dryingMethod": "눕혀서 건조",
+      "notes": "비틀어 짜지 말고 눕혀서 말리기. 중성세제 사용.",
+      "createdAt": "2026-01-01T19:00:00Z",
+      "updatedAt": "2026-01-01T19:00:00Z"
+    },
+    {
+      "id": "sample-012",
+      "name": "카키 기능성 레깅스",
+      "material": "폴리에스터/스판",
+      "seasons": [
+        "봄",
+        "여름",
+        "가을"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "30℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "섬유유연제 사용 금지(기능 저하).",
+      "createdAt": "2026-01-01T20:00:00Z",
+      "updatedAt": "2026-01-01T20:00:00Z"
+    },
+    {
+      "id": "sample-013",
+      "name": "네이비 맨투맨",
+      "material": "면 혼방",
+      "seasons": [
+        "봄",
+        "가을"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "40℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "뒤집어서 세탁하면 보풀이 줄어든다.",
+      "createdAt": "2026-01-01T21:00:00Z",
+      "updatedAt": "2026-01-01T21:00:00Z"
+    },
+    {
+      "id": "sample-014",
+      "name": "카키 후드집업",
+      "material": "기모 폴리",
+      "seasons": [
+        "가을",
+        "겨울"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "30℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "지퍼를 잠그고 세탁망 사용.",
+      "createdAt": "2026-01-01T22:00:00Z",
+      "updatedAt": "2026-01-01T22:00:00Z"
+    },
+    {
+      "id": "sample-015",
+      "name": "네이비 린넨 팬츠",
+      "material": "린넨",
+      "seasons": [
+        "여름"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "손세탁",
+      "waterTemperature": "30℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "구김이 잘 가므로 털어서 널기.",
+      "createdAt": "2026-01-01T23:00:00Z",
+      "updatedAt": "2026-01-01T23:00:00Z"
+    },
+    {
+      "id": "sample-016",
+      "name": "흰색 원피스",
+      "material": "레이온",
+      "seasons": [
+        "봄",
+        "여름"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "손세탁",
+      "waterTemperature": "찬물",
+      "dryingMethod": "눕혀서 건조",
+      "notes": "열에 약하므로 건조기 사용 금지.",
+      "createdAt": "2026-01-02T00:00:00Z",
+      "updatedAt": "2026-01-02T00:00:00Z"
+    },
+    {
+      "id": "sample-017",
+      "name": "흰색 린넨 팬츠",
+      "material": "린넨",
+      "seasons": [
+        "여름"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "손세탁",
+      "waterTemperature": "30℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "구김이 잘 가므로 털어서 널기.",
+      "createdAt": "2026-01-02T01:00:00Z",
+      "updatedAt": "2026-01-02T01:00:00Z"
+    },
+    {
+      "id": "sample-018",
+      "name": "연분홍 원피스",
+      "material": "레이온",
+      "seasons": [
+        "봄",
+        "여름"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "손세탁",
+      "waterTemperature": "찬물",
+      "dryingMethod": "눕혀서 건조",
+      "notes": "열에 약하므로 건조기 사용 금지.",
+      "createdAt": "2026-01-02T02:00:00Z",
+      "updatedAt": "2026-01-02T02:00:00Z"
+    },
+    {
+      "id": "sample-019",
+      "name": "베이지 후드집업",
+      "material": "기모 폴리",
+      "seasons": [
+        "가을",
+        "겨울"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "30℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "지퍼를 잠그고 세탁망 사용.",
+      "createdAt": "2026-01-02T03:00:00Z",
+      "updatedAt": "2026-01-02T03:00:00Z"
+    },
+    {
+      "id": "sample-020",
+      "name": "크림색 패딩",
+      "material": "나일론/오리털",
+      "seasons": [
+        "겨울"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "드라이클리닝",
+      "waterTemperature": "",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "집에서 세탁 시 전용 세제 사용 후 공 넣고 건조.",
+      "createdAt": "2026-01-02T04:00:00Z",
+      "updatedAt": "2026-01-02T04:00:00Z"
+    },
+    {
+      "id": "sample-021",
+      "name": "베이지 기능성 레깅스",
+      "material": "폴리에스터/스판",
+      "seasons": [
+        "봄",
+        "여름",
+        "가을"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "30℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "섬유유연제 사용 금지(기능 저하).",
+      "createdAt": "2026-01-02T05:00:00Z",
+      "updatedAt": "2026-01-02T05:00:00Z"
+    },
+    {
+      "id": "sample-022",
+      "name": "카키 니트",
+      "material": "울 혼방",
+      "seasons": [
+        "가을",
+        "겨울"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "손세탁",
+      "waterTemperature": "30℃ 이하",
+      "dryingMethod": "눕혀서 건조",
+      "notes": "비틀어 짜지 말고 눕혀서 말리기. 중성세제 사용.",
+      "createdAt": "2026-01-02T06:00:00Z",
+      "updatedAt": "2026-01-02T06:00:00Z"
+    },
+    {
+      "id": "sample-023",
+      "name": "회색 린넨 팬츠",
+      "material": "린넨",
+      "seasons": [
+        "여름"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "손세탁",
+      "waterTemperature": "30℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "구김이 잘 가므로 털어서 널기.",
+      "createdAt": "2026-01-02T07:00:00Z",
+      "updatedAt": "2026-01-02T07:00:00Z"
+    },
+    {
+      "id": "sample-024",
+      "name": "흰색 반팔 티셔츠",
+      "material": "면 100%",
+      "seasons": [
+        "여름"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "40℃ 이하",
+      "dryingMethod": "건조기 사용 가능",
+      "notes": "프린트 부분은 뒤집어서 세탁.",
+      "createdAt": "2026-01-02T08:00:00Z",
+      "updatedAt": "2026-01-02T08:00:00Z"
+    },
+    {
+      "id": "sample-025",
+      "name": "연분홍 반팔 티셔츠",
+      "material": "면 100%",
+      "seasons": [
+        "여름"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "40℃ 이하",
+      "dryingMethod": "건조기 사용 가능",
+      "notes": "프린트 부분은 뒤집어서 세탁.",
+      "createdAt": "2026-01-02T09:00:00Z",
+      "updatedAt": "2026-01-02T09:00:00Z"
+    },
+    {
+      "id": "sample-026",
+      "name": "흰색 패딩",
+      "material": "나일론/오리털",
+      "seasons": [
+        "겨울"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "드라이클리닝",
+      "waterTemperature": "",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "집에서 세탁 시 전용 세제 사용 후 공 넣고 건조.",
+      "createdAt": "2026-01-02T10:00:00Z",
+      "updatedAt": "2026-01-02T10:00:00Z"
+    },
+    {
+      "id": "sample-027",
+      "name": "연분홍 반팔 티셔츠",
+      "material": "면 100%",
+      "seasons": [
+        "여름"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "40℃ 이하",
+      "dryingMethod": "건조기 사용 가능",
+      "notes": "프린트 부분은 뒤집어서 세탁.",
+      "createdAt": "2026-01-02T11:00:00Z",
+      "updatedAt": "2026-01-02T11:00:00Z"
+    },
+    {
+      "id": "sample-028",
+      "name": "회색 코트",
+      "material": "울 캐시미어",
+      "seasons": [
+        "가을",
+        "겨울"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "드라이클리닝",
+      "waterTemperature": "",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "보관 시 통기성 있는 커버 사용.",
+      "createdAt": "2026-01-02T12:00:00Z",
+      "updatedAt": "2026-01-02T12:00:00Z"
+    },
+    {
+      "id": "sample-029",
+      "name": "연분홍 반팔 티셔츠",
+      "material": "면 100%",
+      "seasons": [
+        "여름"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "40℃ 이하",
+      "dryingMethod": "건조기 사용 가능",
+      "notes": "프린트 부분은 뒤집어서 세탁.",
+      "createdAt": "2026-01-02T13:00:00Z",
+      "updatedAt": "2026-01-02T13:00:00Z"
+    },
+    {
+      "id": "sample-030",
+      "name": "네이비 후드집업",
+      "material": "기모 폴리",
+      "seasons": [
+        "가을",
+        "겨울"
+      ],
+      "clothingImage": null,
+      "labelImage": null,
+      "washingMethod": "세탁기",
+      "waterTemperature": "30℃ 이하",
+      "dryingMethod": "그늘에서 자연 건조",
+      "notes": "지퍼를 잠그고 세탁망 사용.",
+      "createdAt": "2026-01-02T14:00:00Z",
+      "updatedAt": "2026-01-02T14:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+✔ [FR-04] 검색어가 비어 있으면 전체 목록을 반환한다 (2.302613ms)
+✔ [FR-04] 이름의 일부만 입력해도 포함된 의류를 찾는다 (0.343998ms)
+✔ [FR-05] 계절 태그를 선택하면 해당 태그의 의류만 반환한다 (0.209286ms)
+✔ [FR-05] 여러 계절 태그를 가진 의류는 각 계절 필터에 모두 나타난다 (0.32209ms)
+✔ [FR-05] 검색어와 계절을 함께 적용하면 두 조건을 모두 만족하는 의류만 반환한다 (0.274555ms)
+✔ [FR-07] 조건에 맞는 의류가 없으면 빈 배열을 반환한다 (1.881299ms)
+✖ [예외] 검색어 앞뒤 공백은 무시한다 (2.015943ms)
+✖ [예외] 공백만 입력하면 검색어가 없는 것으로 보고 전체를 반환한다 (0.493511ms)
+✖ [예외] 영문 이름은 대소문자를 구분하지 않고 검색한다 (0.777126ms)
+✖ [예외] 계절 태그가 없는 의류가 있어도 오류 없이 필터링한다 (0.549445ms)
+✖ [예외] 목록이 배열이 아니면(null/undefined) 빈 배열을 반환한다 (0.305934ms)
+✖ [예외] 옵션을 생략해도 전체 목록을 반환한다 (0.164732ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 6
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 117.498794
+
+✖ failing tests:
+
+test at tests/filter.test.js:50:1
+✖ [예외] 검색어 앞뒤 공백은 무시한다 (2.015943ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + []
+  - [
+  -   '1',
+  -   '2'
+  - ]
+  
+      at TestContext.<anonymous> (/home/claude/CareCloset/tests/filter.test.js:51:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [],
+    expected: [ '1', '2' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/filter.test.js:54:1
+✖ [예외] 공백만 입력하면 검색어가 없는 것으로 보고 전체를 반환한다 (0.493511ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 5
+  
+      at TestContext.<anonymous> (/home/claude/CareCloset/tests/filter.test.js:55:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 5,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/filter.test.js:58:1
+✖ [예외] 영문 이름은 대소문자를 구분하지 않고 검색한다 (0.777126ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + []
+  - [
+  -   '4'
+  - ]
+  
+      at TestContext.<anonymous> (/home/claude/CareCloset/tests/filter.test.js:59:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [],
+    expected: [ '4' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/filter.test.js:62:1
+✖ [예외] 계절 태그가 없는 의류가 있어도 오류 없이 필터링한다 (0.549445ms)
+  TypeError: Cannot read properties of undefined (reading 'indexOf')
+      at filterClothes (/home/claude/CareCloset/docs/refactoring/filter_before.js:22:26)
+      at TestContext.<anonymous> (/home/claude/CareCloset/tests/filter.test.js:63:24)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+
+test at tests/filter.test.js:66:1
+✖ [예외] 목록이 배열이 아니면(null/undefined) 빈 배열을 반환한다 (0.305934ms)
+  TypeError: Cannot read properties of null (reading 'length')
+      at filterClothes (/home/claude/CareCloset/docs/refactoring/filter_before.js:15:28)
+      at TestContext.<anonymous> (/home/claude/CareCloset/tests/filter.test.js:67:20)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+
+test at tests/filter.test.js:71:1
+✖ [예외] 옵션을 생략해도 전체 목록을 반환한다 (0.164732ms)
+  TypeError: Cannot read properties of undefined (reading 'query')
+      at filterClothes (/home/claude/CareCloset/docs/refactoring/filter_before.js:11:23)
+      at TestContext.<anonymous> (/home/claude/CareCloset/tests/filter.test.js:72:16)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7)

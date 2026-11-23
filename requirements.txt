@@ -1,0 +1,2 @@
+# CareCloset 앱 실행과 테스트에는 Python 패키지가 필요 없습니다.
+# tools/generate_sample_data.py(샘플 데이터 생성기)는 Python 3.8+ 표준 라이브러리만 사용합니다.
