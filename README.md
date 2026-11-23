@@ -1,7 +1,7 @@
-# CareCloset (가칭) - 개인 의류 세탁 정보 관리 웹서비스
+# CareCloset - 개인 의류 세탁 정보 관리 웹서비스
 
 > 세탁 라벨을 떼어 낸 옷도, 옷마다 다른 세탁 방법도 **옷별로 기록해 두고 필요할 때 바로 찾아보는** 웹서비스입니다.
-> (과목: VSCode + GitHub Copilot 활용 실무 프로그래밍 입문 / 기말 캡스톤 프로젝트 / 202314029 김시은)
+> (과목: ai활용프로그래밍 / 기말  프로젝트 / 202314029 김시은)
 
 - 실행 페이지: https://kimsieun99.github.io/CareCloset/
 - 저장소: https://github.com/kimsieun99/CareCloset
